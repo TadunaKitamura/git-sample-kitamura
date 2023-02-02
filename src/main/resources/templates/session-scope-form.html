@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="result-session-scope-scope1.html"
+		th:action="@{/session-scope/input-name}" method="post">
+		<input type="text" name="name" />
+		<button type="submit">送信</button>
+	</form>
+</body>
+</html>
